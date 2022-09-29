@@ -104,15 +104,16 @@ article {
     height: 300px;
     width: 360px;
     background-color: var(--header-color);
+    padding: 30px;
 }
 
-.first::before {
-    content: "Projects";
+/* .projects:nth-child(1):before {
+    content: "Villains";
     position: relative;
-    bottom: 28px;
+    bottom: 8px;
     font-size: 2rem;
     font-weight: bolder;
-}
+} */
 
 .top {
     margin-top: 55px;
@@ -134,15 +135,31 @@ article {
     width: 300px;
     margin-top: 55px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
 }
 
-#ann-card::before {
+.ann-font {
+    font-size: 1.5rem;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    height: 1px;
+    border: none;
+}
+
+/* #ann-card::before {
     content: "Announcements";
     position: relative;
     bottom: 28px;
     font-size: 2rem;
     font-weight: bolder;
-}
+} */
 
 #trend {
     grid-column: 2 / 3;
@@ -158,12 +175,20 @@ article {
     border-radius: 10px;
 }
 
-#trn-card::before {
+/* #trn-card::before {
     content: "Trending";
     position: relative;
     bottom: 28px;
     font-size: 2rem;
     font-weight: bolder;
+} */
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
 }
 
 
