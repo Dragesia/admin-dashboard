@@ -182,7 +182,10 @@ article {
     grid-template-columns: repeat(auto-fit, 360px);
     justify-content: center;
     gap: 30px;
+    position: relative;
 }
+
+
 
 .card {
     border-radius: 10px;
@@ -211,13 +214,15 @@ article {
     color: darkred;
 }
 
-/* .projects:nth-child(1):before {
-    content: "Villains";
+#projects:nth-child(1) {
     position: relative;
-    bottom: 8px;
-    font-size: 2rem;
-    font-weight: bolder;
-} */
+}
+
+.headline {
+    position: absolute;
+    top: -27px;
+    left: 0px;
+}
 
 .top {
     margin-top: 55px;
@@ -257,13 +262,9 @@ hr {
     border: none;
 }
 
-/* #ann-card::before {
-    content: "Announcements";
+#ann-card {
     position: relative;
-    bottom: 28px;
-    font-size: 2rem;
-    font-weight: bolder;
-} */
+}
 
 #trend {
     grid-column: 2 / 3;
@@ -312,13 +313,9 @@ hr {
 }
 
 
-/* #trn-card::before {
-    content: "Trending";
+#trn-card {
     position: relative;
-    bottom: 28px;
-    font-size: 2rem;
-    font-weight: bolder;
-} */
+}
 
 h1 {
     font-size: 2rem;
