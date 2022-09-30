@@ -34,6 +34,29 @@ header {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     background-color: var(--header-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.bar-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.srch-ico {
+    position: relative;
+    top: 0px;
+}
+
+.searchbar {
+    height: 30px;
+    width: 95%;
+    background-color: var(--art-color);
+    border-radius: 20px;
 }
 
 /* End of header */
